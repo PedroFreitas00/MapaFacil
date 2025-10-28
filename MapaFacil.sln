@@ -1,22 +1,40 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "backEnd", "backEnd\backEnd.csproj", "{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backEnd", "backEnd", "{1AE8ACA6-933B-BF2A-3671-3E2EAC007D16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapaFacil.API", "backEnd\MapaFacil.API.csproj", "{061569E7-3D81-482A-89E0-C2898A4604EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B5CEE1AB-68C5-FCEC-EA61-653FFB609ED2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{061569E7-3D81-482A-89E0-C2898A4604EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{061569E7-3D81-482A-89E0-C2898A4604EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{061569E7-3D81-482A-89E0-C2898A4604EE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{061569E7-3D81-482A-89E0-C2898A4604EE}.Debug|x64.Build.0 = Debug|Any CPU
+		{061569E7-3D81-482A-89E0-C2898A4604EE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{061569E7-3D81-482A-89E0-C2898A4604EE}.Debug|x86.Build.0 = Debug|Any CPU
+		{061569E7-3D81-482A-89E0-C2898A4604EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{061569E7-3D81-482A-89E0-C2898A4604EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{061569E7-3D81-482A-89E0-C2898A4604EE}.Release|x64.ActiveCfg = Release|Any CPU
+		{061569E7-3D81-482A-89E0-C2898A4604EE}.Release|x64.Build.0 = Release|Any CPU
+		{061569E7-3D81-482A-89E0-C2898A4604EE}.Release|x86.ActiveCfg = Release|Any CPU
+		{061569E7-3D81-482A-89E0-C2898A4604EE}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{061569E7-3D81-482A-89E0-C2898A4604EE} = {1AE8ACA6-933B-BF2A-3671-3E2EAC007D16}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8A1ACF6B-1D46-4C62-9D03-C520B5AFC43B}

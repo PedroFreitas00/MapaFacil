@@ -32,7 +32,7 @@ app.MapGet("/weatherforecast", () =>
     return forecast;
 })
 .WithName("GetWeatherForecast");
-
+app.MapGet("/", () => "API MapaFácil está rodando");
 app.Run();
 
 record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
